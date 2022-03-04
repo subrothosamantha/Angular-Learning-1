@@ -11,6 +11,8 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { UserFormComponent } from './user-form/user-form.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialComponentComponent } from './material-component/material-component.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './parent/child/child.component';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { MaterialComponentComponent } from './material-component/material-compon
     DatabindingComponent,
     UserFormComponent,
     MaterialComponentComponent,
+    ParentComponent,
+    ChildComponent,
     
    
    

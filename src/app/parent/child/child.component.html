@@ -1,0 +1,20 @@
+<p>child works!</p>
+<h3 *ngIf="isLaptopProvided">yes laptop will be provided to you!!!</h3>
+<h1 *ngIf="loggedIn">Got access from my parent folder and this user have access</h1>
+<ul>
+    <li *ngFor="let course of courseList">
+        {{course.id}} {{course.name}}
+    </li>
+</ul>
+
+<p>Party permission from parent??</p>
+ <!--jawab comming from parent-->
+<h3 *ngIf="parentAllowedForParty">will party</h3>
+
+
+ 
+
+  <input type="text" [(ngModel)]="name"><br>
+  <button (click)="makeparentgreet()">greet from parent</button>
+<br>
+
