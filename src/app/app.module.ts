@@ -13,6 +13,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialComponentComponent } from './material-component/material-component.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './parent/child/child.component';
+import { InputTodoComponent } from './todo-list-app/input-todo/input-todo.component';
+import { OutputTodoComponent } from './todo-list-app/output-todo/output-todo.component';
 
 
 @NgModule({
@@ -24,6 +26,8 @@ import { ChildComponent } from './parent/child/child.component';
     MaterialComponentComponent,
     ParentComponent,
     ChildComponent,
+    InputTodoComponent,
+    OutputTodoComponent,
     
    
    

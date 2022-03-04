@@ -8,8 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class TodoListAppComponent implements OnInit {
 
   constructor() { }
-
   ngOnInit(): void {
+  }
+
+  
+   //: {title:string,description:string}
+   todos =[{title:"laptop",description:"very useful device"}];
+   
+  addtodo(value:any){
+    console.log();
+    
+     this.todos.push({title:value.title,description:value.description});
   }
 
 }
